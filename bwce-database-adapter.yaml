@@ -17,7 +17,7 @@ spec:
   type: service
   lifecycle: production
   system: car-order-system
-  owner: "CarImporter"
+  owner: operational-department
   providesApis: [ "car-details-api" ]
   dependsOn:
     - resource:default/cars-database
