@@ -23,7 +23,7 @@ spec:
     email: info@acme.com
     picture: https://en.wikipedia.org/wiki/Finance#/media/File:Philippine-stock-market-board.jpg
   parent: CarImporter
-#  children: [ peter ]
+  children: [ ]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -37,6 +37,7 @@ spec:
     email: info@acme.com
     picture: https://en.wikipedia.org/wiki/Car#/media/File:401_Gridlock.jpg
   parent: CarImporter
+  children: [ ]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Domain
