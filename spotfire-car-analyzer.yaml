@@ -4,8 +4,9 @@ metadata:
   name: "car-analyzer"
   description: "Car Analytical Report"
   tags:
-    - Spotfire
-    - Data Layer
+    - spotfire
+    - data-layer
+    - frontend
   links:
     - title: TIBCO Spotfire Home
       url: https://www.tibco.com/products/tibco-spotfire
