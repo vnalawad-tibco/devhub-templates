@@ -18,6 +18,10 @@ metadata:
       url: vscode://file/Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/
     - title: VSCode Editor (file)
       url: vscode://file/Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/flogo-app-HelloWorld.json
+    - title: VSCode Editor (file) - 2
+      url: vscode://file/Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/flogo-app-HelloWorld.json
+    - title: VSCode Editor - 2
+      url: vscode://file/Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/
   annotations:
     github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
     backstage.io/techdocs-ref: dir:.
