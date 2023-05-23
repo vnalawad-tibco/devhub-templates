@@ -19,6 +19,8 @@ spec:
   system: car-order-system
   owner: "CarImporter"
   providesApis: [ "car-details-api" ]
+  dependsOn:
+    - resource:default/cars-database
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API

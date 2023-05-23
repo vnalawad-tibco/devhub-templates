@@ -29,6 +29,10 @@ spec:
   system: car-order-system
   owner: operational-department
   providesApis: [ "car-information-api" ]
+  consumesApis:
+    - car-details-api
+  dependsOn:
+    - resource:default/cars-promotional-materials
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API

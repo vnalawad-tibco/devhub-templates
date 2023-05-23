@@ -29,6 +29,10 @@ spec:
   system: car-order-system
   owner: finance-department
   providesApis: [ "car-discount-api" ]
+  consumesApis:
+    - car-details-api
+  dependsOn:
+    - resource:default/cars-database
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
