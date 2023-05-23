@@ -32,7 +32,7 @@ spec:
   consumesApis:
     - car-details-api
   dependsOn:
-    - resource:default/cars-database
+    - resource:default/cars-promotional-materials
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
