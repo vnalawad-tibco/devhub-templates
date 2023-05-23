@@ -1,0 +1,66 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: CarImporter
+  description: A company that imports cars
+spec:
+  type: organization
+  profile:
+    displayName: Car Importer
+    email: info@acme.com
+    picture: https://en.wikipedia.org/wiki/Car#/media/File:Late_model_Ford_Model_T.jpg
+  children: [ finance-department, operational-department ]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: finance-department
+  description: The Finance Department
+spec:
+  type: department
+  profile:
+    displayName: The Finance Department
+    email: info@acme.com
+    picture: https://en.wikipedia.org/wiki/Finance#/media/File:Philippine-stock-market-board.jpg
+  parent: CarImporter
+#  children: [ peter ]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: operational-department
+  description: The Operational Department
+spec:
+  type: department
+  profile:
+    displayName: The Operational Department
+    email: info@acme.com
+    picture: https://en.wikipedia.org/wiki/Car#/media/File:401_Gridlock.jpg
+  parent: CarImporter
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cars
+  description: Everything related to Cars
+  links:
+    - url: https://www.auto-data.net/en/
+      title: Car Stats
+      icon: dashboard
+spec:
+  owner: group:CarImporter
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-car-importer-components
+  description: A collection of all Car Importer components
+spec:
+  targets:
+    - ./ci-resources.yaml
+    - ./car-order-system.yaml
+    - ./bwce-database-adapter.yaml
+    - ./flogo-car-information-provider.yaml
+    - ./flogo-discount-calculator.yaml
+    - ./spotfire-car-analyzer.yaml
+    - ./ui-car-order-system.yaml

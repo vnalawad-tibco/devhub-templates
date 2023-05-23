@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "car-order-ui"
+  description: "Car Order UI"
+  tags:
+    - Angular
+    - Frontend
+  links:
+    - title: Angular Home
+      url: https://angular.io/
+  annotations:
+    github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
+    backstage.io/techdocs-ref: dir:.
+#    backstage.io/kubernetes-id: bwce-ah-test-1
+#    jenkins.io/job-full-name: Build_BWCE_EAR_DB
+spec:
+  type: service
+  lifecycle: production
+  system: car-order-system
+  owner: operational-department

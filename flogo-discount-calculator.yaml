@@ -1,0 +1,53 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "discount-calculator"
+  description: "Car Discount Calculation Service"
+  tags:
+    - Flogo
+    - Data Layer
+  links:
+    - title: TIBCO Cloud Home
+      url: https://cloud.tibco.com/
+    - title: Documentation
+      url: https://eu.integration.cloud.tibco.com/docs/index.html
+    - title: TIBCO Cloud Integration
+      url: https://eu.integration.cloud.tibco.com/applications
+    - title: VSCode Editor
+      url: vscode://Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/
+    - title: VSCode Editor (file)
+      url: vscode://Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/flogo-app-HelloWorld.json
+  annotations:
+    github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
+    backstage.io/techdocs-ref: dir:.
+#    backstage.io/kubernetes-id: bwce-ah-test-1
+#    jenkins.io/job-full-name: Build_BWCE_EAR_DB
+spec:
+  type: service
+  lifecycle: production
+  system: car-order-system
+  owner: finance-department
+  providesApis: [ "car-discount-api" ]
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "car-discount-api"
+  description: "An API that provides car discounts"
+  tags:
+    - finance
+    - rest
+  links:
+    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/TIBCO-Hub-Backstage/tibco-next-demo/blob/master/sample-api.json
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: production
+  owner: finance-department
+  apiConsumedBy: [ "component:car-order-ui"]
+  definition:
+    $text: ./sample-api.json
