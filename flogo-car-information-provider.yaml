@@ -14,10 +14,10 @@ metadata:
       url: https://eu.integration.cloud.tibco.com/docs/index.html
     - title: TIBCO Cloud Integration
       url: https://eu.integration.cloud.tibco.com/applications
-    - title: VSCode Editor
-      url: vscode://file/Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/
-    - title: VSCode Editor (file)
-      url: vscode://file/Users/hpeters/VSCodeFolders/vscode-flogo-extenstion-test/flogo-app-HelloWorld.json
+    - title: VSCode Editor (File)
+      url: vscode://file/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo/flogo-app-car-information-provider.json
+    - title: VSCode Editor (Folder)
+      url: vscode://file/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo/
   annotations:
     github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
     backstage.io/techdocs-ref: dir:.
