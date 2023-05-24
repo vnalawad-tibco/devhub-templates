@@ -3,6 +3,11 @@ kind: Component
 metadata:
   name: "db-adapter"
   description: "Database Adapter"
+  tags:
+    - bwce
+    - data-layer
+    - backend
+    - adapter
   links:
     - title: TIBCO Business Works
       url: https://www.tibco.com/products/tibco-businessworks
