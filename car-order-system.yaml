@@ -3,9 +3,10 @@ kind: System
 metadata:
   name: car-order-system
   description: 'A system to Order New Cars'
-spec:
-  owner: group:CarImporter
-  domain: cars
   annotations:
     github.com/project-slug: TIBCO-Hub-Backstage/tibco-next-demo
     backstage.io/techdocs-ref: dir:.
+spec:
+  owner: group:CarImporter
+  domain: cars
+
