@@ -38,7 +38,7 @@ spec:
           title: Local Working Folder
           type: string
           description: Folder that VSCode should open
-          default: '/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo/'
+          default: '/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo'
         owner:
           title: Owner
           type: string
