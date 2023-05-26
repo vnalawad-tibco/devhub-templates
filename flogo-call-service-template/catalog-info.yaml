@@ -13,7 +13,7 @@ metadata:
     - title: VSCode Editor (File)
       url: vscode://file/${{ values.localFolder }}/flogo.json
     - title: VSCode Editor (Folder)
-      url: vscode://file/${{ values.localFolder }} /
+      url: vscode://file/${{ values.localFolder }}
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
