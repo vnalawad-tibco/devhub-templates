@@ -5,9 +5,9 @@ metadata:
   title: Flogo Call Service Template
   description: Create a new Flogo project that Call a Service
   tags:
-    - recommended
     - flogo
     - tibco
+    - recommended
 spec:
   owner: hpeters83
   type: service

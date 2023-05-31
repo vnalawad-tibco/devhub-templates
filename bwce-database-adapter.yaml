@@ -4,9 +4,9 @@ metadata:
   name: "db-adapter"
   description: "Database Adapter"
   tags:
-    - bwce
-    - data-layer
     - backend
+    - data-layer
+    - bwce
     - adapter
   links:
     - title: TIBCO Business Works

@@ -4,9 +4,9 @@ metadata:
   name: "car-information-provider"
   description: "Car Information Provider Service"
   tags:
-    - flogo
-    - data-layer
     - backend
+    - data-layer
+    - flogo
   links:
     - title: TIBCO Cloud Home
       url: https://cloud.tibco.com/
