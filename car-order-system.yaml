@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - cars
-    - nextDemo
+    - tibco-next-demo
 spec:
   owner: group:CarImporter
   domain: cars
