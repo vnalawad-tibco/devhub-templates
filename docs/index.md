@@ -1,4 +1,7 @@
 Documentation for: Car Order System
+===========================
+
+
 -------
 
 A system to Order New Cars
@@ -6,7 +9,6 @@ A system to Order New Cars
 <p align="center">
   <img src ="images/cars_small.jpg" />
 </p>
-
 
 This System does the following:
 ===========================
