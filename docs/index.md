@@ -1,6 +1,4 @@
--------
-
-Documentation for: Car Order System
+**Documentation for: Car Order System**
 ===========================
 
 
@@ -19,7 +17,7 @@ This System does the following:
 
 The Car Ordering System is an advanced digital platform designed to streamline and simplify the process of ordering a car from a dealership or manufacturer. This system provides customers with a convenient and efficient way to customize, select, and order their desired vehicle, offering a seamless experience from start to finish.
 
-### Key Features:
+**Key Features:**
 
 - **Vehicle Configuration:** The system allows customers to select their desired car model and customize various features such as exterior color, interior upholstery, technology packages, optional accessories, and more. Users can visualize their selections in real-time through interactive 3D models or detailed images.
 
@@ -35,7 +33,7 @@ The Car Ordering System is an advanced digital platform designed to streamline a
 
 - **Communication and Support:** The system includes communication channels, such as email notifications, SMS updates, or a dedicated customer support portal, to facilitate smooth communication between customers and dealership representatives. Customers can reach out to ask questions, request assistance, or make changes to their order if permitted.
 
-### Benefits:
+**Benefits:**
 
 **Convenient and Time-Saving:** Customers can configure and order their desired car at their convenience, eliminating the need for multiple visits to the dealership.
 Enhanced Customization: The system enables customers to personalize their vehicle by selecting from a range of options, ensuring they receive a car tailored to their preferences.
