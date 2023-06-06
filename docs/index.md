@@ -1,6 +1,4 @@
 **Documentation for: Car Order System**
-===========================
-
 
 -------
 
@@ -12,8 +10,7 @@ A system to Order New Cars
 
 -------
 
-This System does the following:
-===========================
+**This System does the following:**
 
 The Car Ordering System is an advanced digital platform designed to streamline and simplify the process of ordering a car from a dealership or manufacturer. This system provides customers with a convenient and efficient way to customize, select, and order their desired vehicle, offering a seamless experience from start to finish.
 
