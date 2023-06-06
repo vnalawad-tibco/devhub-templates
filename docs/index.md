@@ -4,7 +4,7 @@ Documentation for: Car Order System
 A system to Order New Cars
 
 <p align="center">
-  <img src ="images/cars.jpg" />
+  <img src ="images/cars_small.jpg" />
 </p>
 
 
