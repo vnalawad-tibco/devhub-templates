@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: flogo-cs-template
-  title: Flogo Call Service Template
+  title: Flogo Call Service Template (VS)
   description: Create a new Flogo project that Call a Service
   tags:
     - flogo
