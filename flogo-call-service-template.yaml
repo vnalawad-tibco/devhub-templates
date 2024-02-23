@@ -95,6 +95,9 @@ spec:
     links:
       - title: Repository
         url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open In VSCode
+        url: ${{"vscode://vscode.git/clone?url=" + steps.publish.output.remoteUrl}}
+     # https://github.com/TIBCO-Hub-Backstage/tibco-next-demo/tree/main/
       - title: Open in catalog
         icon: catalog
         entityRef: ${{ steps.register.output.entityRef }}
