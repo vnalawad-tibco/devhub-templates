@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: flogo-cs-template
+  name: flogo-cs-template-vijay
   title: Flogo Call Service Template (VS)
   description: Create a new Flogo project that Call a Service
   tags:
@@ -9,7 +9,7 @@ metadata:
     - tibco
     - recommended
 spec:
-  owner: hpeters83
+  owner: vnalawad-tibco
   type: service
 
   parameters:
@@ -38,7 +38,7 @@ spec:
           title: Local Working Folder
           type: string
           description: Folder that VSCode should open
-          default: '/Users/hpeters/VSCodeFolders/tibco-next-flogo-demo'
+          default: '/Users/vnalawadtibco.com/dev/vscode-support-demo'
         owner:
           title: Owner
           type: string
